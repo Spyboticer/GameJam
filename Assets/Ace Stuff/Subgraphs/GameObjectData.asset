@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: GameObjectData
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"input","label":null,"summary":null,"hideLabel":true},{"hasDefaultValue":true,"defaultValue":null,"_type":"System.String","key":"Name","label":null,"summary":null,"hideLabel":true}],"valueOutputDefinitions":[{"_type":"UnityEngine.GameObject","key":"output","label":null,"summary":null,"hideLabel":true}],"title":"GameObjectData","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-250.0,"y":-30.0},"guid":"c5e9f53b-1ddd-4398-9304-eccdd76f1aee","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":105.0,"y":-30.0},"guid":"b5edc047-7ea0-4fc5-9c23-4f89ddbe17ba","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"input","destinationUnit":{"$ref":"14"},"destinationKey":"output","guid":"e3070866-a873-44c0-910a-dd32a312c785","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
