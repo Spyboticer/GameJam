@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Loop
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Input","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":false},{"key":"Loop","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Loop","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-250.0,"y":-30.0},"guid":"c5e9f53b-1ddd-4398-9304-eccdd76f1aee","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":105.0,"y":-30.0},"guid":"b5edc047-7ea0-4fc5-9c23-4f89ddbe17ba","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"14"},{"defaultValues":{},"position":{"x":-84.0,"y":-24.0},"guid":"48c76f33-0968-4120-aaeb-a77b0acc27fe","$version":"A","$type":"Unity.VisualScripting.While","$id":"16"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":-264.0,"y":72.0},"guid":"4fe18694-67bb-4c5b-a363-4b86a6cc6a49","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"18"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Input","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"2cfcd0f6-e280-491c-b5b0-61cd8a7388d8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"exit","destinationUnit":{"$ref":"14"},"destinationKey":"Exit","guid":"e13a37a7-470a-4a8c-84aa-90acce357615","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"body","destinationUnit":{"$ref":"14"},"destinationKey":"Loop","guid":"e1a29e6b-a308-47dd-b697-516e3f53e9c3","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"output","destinationUnit":{"$ref":"16"},"destinationKey":"condition","guid":"ac687a61-3883-4f33-9f0f-3f9bbc11d125","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

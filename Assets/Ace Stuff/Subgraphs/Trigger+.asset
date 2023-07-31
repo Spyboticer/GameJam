@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Trigger+
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"in","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"out","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Trigger+","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-252.0,"y":-36.0},"guid":"c5e9f53b-1ddd-4398-9304-eccdd76f1aee","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"11"},{"defaultValues":{},"position":{"x":108.0,"y":-36.0},"guid":"b5edc047-7ea0-4fc5-9c23-4f89ddbe17ba","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"13"},{"sourceUnit":{"$ref":"11"},"sourceKey":"in","destinationUnit":{"$ref":"13"},"destinationKey":"out","guid":"7da09876-040e-43e5-9daa-f3e1affe4129","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
