@@ -34,10 +34,10 @@ MonoBehaviour:
   minimapType: 3
   minimapPosition:
     serializedVersion: 2
-    x: 616
+    x: 137.6
     y: 0
     width: 100
-    height: 90
+    height: 89.6
   breakpointColor: {r: 1, g: 0, b: 0, a: 1}
   nodeSuccessColor: {r: 0, g: 1, b: 0, a: 1}
   nodeFailureColor: {r: 1, g: 0, b: 0, a: 1}
